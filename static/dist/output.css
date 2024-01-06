@@ -773,6 +773,10 @@ video {
   margin-left: 8rem;
 }
 
+.ml-36 {
+  margin-left: 9rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -1403,8 +1407,8 @@ video {
     order: 2;
   }
 
-  .md\:ml-36 {
-    margin-left: 9rem;
+  .md\:ml-32 {
+    margin-left: 8rem;
   }
 
   .md\:h-2\/3 {
