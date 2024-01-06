@@ -26,7 +26,7 @@ SECRET_KEY = '@x+b1lg7ykptau6338)-$!j=ss+w72#matdbkes1rey*_h0_^3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nour-mikhael-portfolio.onrender.com']
 
 
 # Application definition
