@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    color: #506056;
+}
+
+#homeSection {
+    background: linear-gradient(70deg, #f6efe7 50%, #506056 50%);
+}
+
+#aboutMe{
+    background: linear-gradient(290deg, #f6efe7 50%, #c87e5d 50%);
+}
+
+@media (max-width: 798px) {
+    #homeSection {
+        background: #506056;
+    }
+
+    #aboutMe{
+        background: #c87e5d;
+    }
+}
+
+.bg-primary{
+    background-color: #070926;
+}
+
+.bg-sec{
+    background-color: #506056;
+}
+
+.bg-box{
+    background-color: #eadbcd;
+}
+
+.bg-light{
+    background-color: #f6efe7;
+}
+
+.color-primary{
+    color: #c87e5d;
+}
+
+a{
+    color: #c87e5d;
+}
+
+.color-switch{
+    color:#506056;
+}
+
+@media (max-width: 798px) {
+    #aboutMe a{
+        color: #f6efe7;
+    }
+
+    .color-switch{
+        color: #f6efe7; 
+    }
+
+}
+
+
+
+.color-sec{
+    color:#506056;
+}
+
+.border-primary{
+    border: 2px #070926 solid;
+}
+
+.border-sec{
+    border: 2px#506056 solid;
+}
+
+.color-light{
+    color:#f4f5f6;
+}
+
+.shadow-hover:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
