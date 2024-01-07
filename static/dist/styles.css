@@ -7,70 +7,72 @@
 body{
     font-family: 'Poppins';
     overflow-x: hidden;
-    color: #506056;
+    color: #2a384c;
 }
 
 #homeSection {
-    background: linear-gradient(70deg, #f6efe7 50%, #506056 50%);
+    background: linear-gradient(70deg, #f0f0f0 50%, #2a384c 50%);
 }
 
 #aboutMe{
-    background: linear-gradient(290deg, #f6efe7 50%, #c87e5d 50%);
+    background: linear-gradient(290deg, #f0f0f0 50%, #a0b2c2 50%);
 }
 
 @media (max-width: 798px) {
     #homeSection {
-        background: #506056;
+        background: #2a384c;
     }
 
     #aboutMe{
-        background: #c87e5d;
+        background: #a0b2c2;
     }
 }
 
 .bg-primary{
-    background-color: #070926;
+    background-color: #2a384c;
 }
 
 .bg-sec{
-    background-color: #506056;
+    background-color: #2a384c;
 }
 
 .bg-box{
-    background-color: #eadbcd;
+    background-color: #d1d9df;
+}
+
+.bg-box a{
+    color: #627586;
 }
 
 .bg-light{
-    background-color: #f6efe7;
+    background-color: #f0f0f0;
 }
 
 .color-primary{
-    color: #c87e5d;
+    color: #a0b2c2;
 }
 
 a{
-    color: #c87e5d;
+    color: #a0b2c2;
 }
 
 .color-switch{
-    color:#506056;
+    color:#2a384c;
 }
 
 @media (max-width: 798px) {
     #aboutMe a{
-        color: #f6efe7;
+        color: #f0f0f0;
     }
 
     .color-switch{
-        color: #f6efe7; 
+        color: #f0f0f0; 
     }
 
 }
 
-
-
 .color-sec{
-    color:#506056;
+    color:#2a384c;
 }
 
 .border-primary{
@@ -78,7 +80,7 @@ a{
 }
 
 .border-sec{
-    border: 2px#506056 solid;
+    border: 2px#2a384c solid;
 }
 
 .color-light{
