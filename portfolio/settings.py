@@ -26,8 +26,8 @@ SECRET_KEY = '@x+b1lg7ykptau6338)-$!j=ss+w72#matdbkes1rey*_h0_^3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['localhost', 'nour-mikhael-portfolio.onrender.com']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'nour-mikhael-portfolio.onrender.com']
+#ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -123,9 +123,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 MEDIA_URL = '/images/'
